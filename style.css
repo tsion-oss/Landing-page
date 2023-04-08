@@ -1,0 +1,165 @@
+body{
+ margin: 0;
+ padding: 0;
+ font-family: sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    height: 600px;
+    color: #f5e7eb;
+    font-size: 16px;
+    
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-left: 150px;
+
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    margin-right: 150px;
+    gap:  20px;
+    
+   
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #f9faf8;   
+    margin-bottom: -15px; 
+}
+.hero-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    position: relative;
+    top: 100px;
+}
+.hero-s{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 8px 25px;
+    font-size: large;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-right: 270px;
+}
+.header-img{
+    position: relative;
+    top: 30px;
+}
+h2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+}
+.information{
+    height: 500px;
+    box-sizing: border-box;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.text{
+    width: 200px;
+    
+    
+}
+img{
+    border:#3882f6 2px solid;
+    border-radius: 10px;
+}
+i{
+   
+    width: 500px;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    height: 350px;
+}
+.main-quote{
+    text-align: center;
+    position: relative;
+    top: 50px;  
+    padding: 50px 180px;
+    font-size: 18px; 
+}
+.small-quote{
+    text-align: right;
+    position: relative;
+    top: 50px;
+    right: 150px;
+}
+.third{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue{
+    background-color: #3882f6;
+    color:#e5e7eb;
+    width:900px;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.t{
+    position: relative;
+    left: 30px;
+    font-size: 15px;
+    
+}
+.action{
+    font-weight: 900;
+    color: white;
+    font-size: 18px;;
+    
+}
+.third-button{
+    position: relative;
+    left: 180px;
+    border:#e5e7eb 1px solid;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+
+}
